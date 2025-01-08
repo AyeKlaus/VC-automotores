@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fuentes{
+    font-family: "Oswald", sans-serif;
+    font-family: "Inconsolata", monospace;
+    font-family: "Orbitron", sans-serif;
+    font-family: "Roboto Mono", monospace;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: #000000;
+}
+
+header a {
+    text-decoration: none;
+    color: #d4d0c2;
+    font-family: "Orbitron", sans-serif;
+}
+
+.navbar {
+    height: 80px;
+    display: flex;
+    align-items: center; 
+    background-color: #000000;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.navbar-brand img {
+    max-width: 150px;
+    height: auto;
+}
+
+.navbar-brand span {
+    color: #d4d0c2;
+    font-size: 24px;
+    margin-left: 15px;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    display: flex;
+    align-items: center; 
+}
+
+.navbar-nav .nav-link {
+    color: #d4d0c2;
+    padding: 15px 20px; 
+    display: flex;
+    align-items: center; 
+    font-family: "Inconsolata", monospace;
+    margin: 0 10px;
+}
+
+
+
+
+.carousel-inner img {
+    height: 500px;
+    object-fit: cover;
+}
+
+
+.card {
+    border: none;
+    border-radius: 0;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.container h1{
+    font-size: 30px;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    padding-bottom: 10px;
+}
+
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+footer h5, footer h6 {
+    margin-bottom: 15px;
+    font-weight: 100;
+}
+
+.datos img{
+    margin-top: 30px;
+    margin-right: 100px;
+}
+
+
+
+/*.btn-primary {
+    background-color: #3b5998;
+    border: none;
+}
+
+.btn-info {
+    background-color: #00aced;
+    border: none;
+}
+
+.btn-danger {
+    background-color: #e4405f;
+    border: none;
+}*/

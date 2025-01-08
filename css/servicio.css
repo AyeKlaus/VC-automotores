@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fuentes{
+    font-family: "Oswald", sans-serif;
+    font-family: "Inconsolata", monospace;
+    font-family: "Orbitron", sans-serif;
+    font-family: "Roboto Mono", monospace;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: #000000;
+}
+
+header a {
+    text-decoration: none;
+    color: #d4d0c2;
+    font-family: "Orbitron", sans-serif;
+}
+
+.navbar {
+    height: 80px;
+    display: flex;
+    align-items: center; 
+    background-color: #000000;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.navbar-brand img {
+    max-width: 150px;
+    height: auto;
+}
+
+.navbar-brand span {
+    color: #d4d0c2;
+    font-size: 24px;
+    margin-left: 15px;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    display: flex;
+    align-items: center; 
+}
+
+.navbar-nav .nav-link {
+    color: #d4d0c2;
+    padding: 15px 20px; 
+    display: flex;
+    align-items: center; 
+    font-family: "Inconsolata", monospace;
+    margin: 0 10px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 15px;
+    column-gap: 20px;
+    border: 1px transparent;
+}
+
+.subtitulo h1{
+    font-family: "Oswald", sans-serif;
+    font-size: 24px;
+    color: #000;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.container .cards {
+    background-color: rgb(255, 255, 255);
+    border: 3px transparent;
+    border-radius: 20px;
+    width: 150px;
+    padding: 2%;
+    box-shadow: 0px 20px 50px -10px #000;
+    cursor: pointer;  
+    transition: all 300ms;  
+    margin-top: 5px;
+   
+}
+
+.container .cards:hover{
+    transform: scale(1.1);
+    
+}
+
+.container .cards h2 {
+    display: flex;
+    font-family: "Inconsolata", monospace;
+    color: rgb(0, 0, 0);
+    size: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    justify-content: center;
+   
+}
+
+.container a {
+    text-decoration: none;
+}
+
+.container .cards img {
+    display: flex;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+    align-items: auto;
+}
+
+.titulo h1{
+    padding-top: 150px;
+    font-family: "Orbitron", sans-serif;
+    font-size: 30px;
+    padding-left: 100px;
+    color: #dddddd;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.titulo h2{
+    font-family: "Roboto Mono", monospace;
+    padding-left: 150px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.fondo img{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
